@@ -1,10 +1,12 @@
-# Generales sobre beneficios
+# General Questions about Employee Benefits
 
 1. What employee benefits are included in the company program?
 2. List the main employee perks offered by the company.
 3. What makes this benefits package unique or modern?
 4. Does the company offer benefits related to wellness or mental health?
 5. Which benefits help improve work-life balance?
+
+## Preguntas Generales sobre Beneficios de Empleados
 
 1. ¿Qué beneficios para los empleados se incluyen en el programa de la empresa?
 2. Enumera las principales ventajas que ofrece la empresa a sus empleados.
@@ -105,6 +107,4 @@
 3. User: *I'm **Robert Martin**.*
 4. Agent: *(…)*
 5. User: *From 11/4/2026 to 11/12/2026.*
-6. Agent: *(…)*
-7. User: *Create a new employee named Sarah Boyle, title Designer, address Boston, 10 vacation days.*
 8. Agent: *(…)*
