@@ -242,16 +242,6 @@ Next, try the following prompt and refer to the image below for further interact
 **Reminder:**  
 Make sure to select an existing employee name from the list provided by your instructor and use the same employee for the entire session.
 
-
-```
-Show me my profile data.
-```
-
-![image](hands-on-lab-askHR/Screenshot_2025-12-09_at_10.37.29_AM.png)
-
-
----
-
 ### Available Employee Names
 
 You can use any of the following names:
@@ -279,6 +269,16 @@ You can use any of the following names:
 - Michael Miller  
 - Victor Vincent  
 - Anthony Underwood  
+
+
+```
+Show me my profile data.
+```
+
+![image](hands-on-lab-askHR/Screenshot_2025-12-09_at_10.37.29_AM.png)
+
+
+---
 
 ```
 I'd like to update my title.
