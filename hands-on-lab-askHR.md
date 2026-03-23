@@ -27,23 +27,22 @@ In a real enterprise scenario it is recommended to start with pre-built domain a
 
 ![Screenshot 2025-12-09 at 10.31.33 AM.png](hands-on-lab-askHR/Screenshot_2025-12-09_at_10.31.33_AM.png)
 
-## Pre-requisites
-
-**Instructors**:
-- Check the corresponding [Instructor’s guide](https://github.ibm.com/skol/agentic-ai-client-bootcamp-instructors/tree/main/usecase-setup/askhr) repo to set up all environments and backend services.
-> NOTE: the `main` branch contains the latest release code. If you want to use a previous release, download the same [release](https://github.ibm.com/skol/agentic-ai-client-bootcamp-instructors/releases) that will be used for participants’ lab.
-- Ensure you have provided an updated OpenAPI Spec located in the instructor repo at `usecase-setup/askhr/HCM_APP/hr.yaml` with the correct URL to your deployed backend service for the lab participants.
-- Provide the [list of employees](https://github.ibm.com/skol/agentic-ai-client-bootcamp-instructors/blob/main/usecase-setup/askhr/HCM_APP/users_data.xlsx) and assign one to each student for testing.
-- Ensure you have set up a shared watsonx Orchestrate tenant and configured the SAP connections (optional part)
-
 **Participants**:
 - Validate that you have access to the right TechZone environment for this lab
 - Validate that you have access to the shared wxO tenant (provided by instructor) for the domain agent part (optional)
 - Complete the [environment-setup](../../../environment-setup) guide for steps on API key creation and project setup.
 - Validate that you have access to a credentials file that your instructor will share with you before starting the labs
 - Familiarity with AI agent concepts (e.g., instructions, tools, collaborators…)
-- Make sure that your instructor has provided the following:
-- updated **hr.yaml OpenAPI Spec**
+
+## Attendee Access
+
+**Attendee URL**  
+Attendees can use this link to view event information as well as information about logging into their personal environment.  
+https://techzone.ibm.com/my/workshops/student/69b842dab92414583c0f8310  
+
+**Password**  
+For security reasons, attendees will need to enter the following password/access code in order to view the Attendee URL page:  
+`socius-ibm`
 
 ## Instructions
 
