@@ -98,8 +98,21 @@ Click on **Next**.
     Once you upload the file, Click on **Next**.
     
     ![Screenshot 2025-12-09 at 10.34.42 AM.png](hands-on-lab-askHR/Screenshot_2025-12-09_at_10.34.42_AM.png)
+
+    > ⚠️ **Disclaimer: File Uploads and Data Storage**
+    >
+    > - Uploaded documents are intended for stable, reviewed content such as manuals, guides, or reference materials.  
+    > - Files become part of the agent’s internal knowledge base and complement (do not replace) the built-in LLM knowledge.  
+    > - This approach enables faster setup without relying on external dependencies.  
+    >
+    > **Data Storage and Security**
+    >
+    > - If you are using watsonx Orchestrate on IBM Cloud, your data remains in the same IBM Cloud region where your environment is hosted.  
+    > - If you are using watsonx Orchestrate on AWS, your data is stored in the IBM Cloud region geographically closest to your AWS region.  
+    >
+    > Please ensure compliance with your organization’s data governance policies.
     
-7. Copy the following description into the **Description** section and then click on **Save**:
+7. Name the knowledge source as `Employee Benefits`. Copy the following description into the **Description** section and then click on **Save**:
     
     ```
     This knowledge base addresses the company's employee benefits, including parental leaves, pet policy, flexible work arrangements, and student loan repayment.
@@ -113,7 +126,7 @@ Click on **Next**.
     
 9. Select **Add from file or MCP server**:
     
-    ![Screenshot 2025-12-09 at 10.35.45 AM.png](hands-on-lab-askHR/Screenshot_2025-12-09_at_10.35.45_AM.png)
+    ![Screenshot 2026-03-23 at 4.58.57 PM.png](hands-on-lab-askHR/Screenshot_2026-03-23_at_4.58.57 PM.png)
     
 10. Select **Import from file**:
     
@@ -194,6 +207,17 @@ When user requests time off:
 
 - Convert provided dates to `YYYY-MM-DD` format before calling the API
 - Example: "5/22/2025" → "2025-05-22"
+
+### Mandatory Clarification Rule (CRITICAL)
+
+Before calling any API to update or create data:
+
+- You MUST verify that ALL required parameters are explicitly provided by the user.
+- If ANY required field is missing, you MUST ask the user for that specific information.
+- You are STRICTLY FORBIDDEN from:
+  - Inventing values
+  - Assuming values
+  - Autocompleting values based on context
 ```
 
 1. Leave all other settings at default values and click on **Deploy** in the top right corner to deploy your agent:
@@ -212,14 +236,49 @@ What is the pet policy?
 
 ![image](hands-on-lab-askHR/Screenshot_2025-12-09_at_10.36.48_AM.png)
 
-Next try the following prompts and refer to the image below for further interaction with the agent.
-Reminder: make sure to select an existing employee name from the list provided by your instructor and use the same employee for the entire session.
+
+Next, try the following prompt and refer to the image below for further interaction with the agent.
+
+**Reminder:**  
+Make sure to select an existing employee name from the list provided by your instructor and use the same employee for the entire session.
+
 
 ```
 Show me my profile data.
 ```
 
 ![image](hands-on-lab-askHR/Screenshot_2025-12-09_at_10.37.29_AM.png)
+
+
+---
+
+### Available Employee Names
+
+You can use any of the following names:
+
+- Daniel Anderson  
+- William Frazier  
+- Danielle Hall  
+- Diane Conrad  
+- Maria Mcdowell  
+- Mrs. Karina Williamson  
+- Jacob Graham  
+- Jessica West  
+- Rebekah Valdez  
+- Yvonne Clark  
+- Victoria Baker  
+- James Harding  
+- Thomas Anderson  
+- Jennifer Rivers  
+- Sarah Boyle  
+- Mary Pruitt  
+- Laura Escobar  
+- Becky Simmons  
+- Tracey Brown  
+- Sean Lang  
+- Michael Miller  
+- Victor Vincent  
+- Anthony Underwood  
 
 ```
 I'd like to update my title.
